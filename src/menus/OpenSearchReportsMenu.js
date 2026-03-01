@@ -17,7 +17,7 @@ import {
   formatMessage,
   MainMenuContribution,
   withModulesManager,
-} from '@openimis/fe-core';
+} from '@stssocialst-stp/fe-core';
 import { OPENSEARCH_REPORTS_MAIN_MENU_CONTRIBUTION_KEY } from '../constants';
 
 function OpenSearchReportsMenu(props) {

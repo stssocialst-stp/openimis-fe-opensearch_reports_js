@@ -10,7 +10,7 @@ import {
   pageInfo,
   parseData,
   formatServerError,
-} from '@openimis/fe-core';
+} from '@stssocialst-stp/fe-core';
 import {
   ERROR, REQUEST, SUCCESS,
 } from './util/action-type';

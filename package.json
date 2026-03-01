@@ -1,9 +1,15 @@
 {
-  "name": "@openimis/fe-opensearch_reports",
+  "name": "@stssocialst-stp/fe-opensearch_reports",
   "version": "0.1.0",
   "license": "AGPL-3.0-only",
   "description": "openIMIS Frontend OpenSearch reports module",
-  "repository": "openimis/openimis-fe-opensearch_reports_js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stssocialst-stp/openimis-fe-opensearch_reports_js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "engines": {
@@ -14,7 +20,7 @@
     "build": "rollup -c",
     "start": "rollup -c -w",
     "format": "prettier src -w",
-    "prepare":"npm run build"
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "react-intl": "^5.8.1"

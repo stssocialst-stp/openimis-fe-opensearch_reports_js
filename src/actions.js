@@ -3,7 +3,7 @@ import {
   formatPageQuery,
   formatPageQueryWithCount,
   formatMutation,
-} from '@openimis/fe-core';
+} from '@stssocialst-stp/fe-core';
 import { ACTION_TYPE } from './reducer';
 import {
   ERROR, REQUEST, SUCCESS,

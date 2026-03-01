@@ -9,7 +9,7 @@ import {
 } from '@material-ui/icons';
 import PaymentIcon from '@material-ui/icons/Payment';
 import ToolIcon from '@material-ui/icons/Build';
-import { FormattedMessage } from '@openimis/fe-core';
+import { FormattedMessage } from '@stssocialst-stp/fe-core';
 import messagesEn from './translations/en.json';
 import BeneficiaryReportsPage from './pages/BeneficiaryReportsPage';
 import GrievanceReportsPage from './pages/GrievanceReportsPage';

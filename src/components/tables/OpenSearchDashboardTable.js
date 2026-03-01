@@ -6,7 +6,7 @@ import {
   TableCell, TableRow, Paper, Tooltip,
 } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
-import { useModulesManager, ProgressOrError, useTranslations } from '@openimis/fe-core';
+import { useModulesManager, ProgressOrError, useTranslations } from '@stssocialst-stp/fe-core';
 import { MODULE_NAME } from '../../constants';
 import { fetchOpenSearchDashboards } from '../../actions';
 import OpenSearchDashboardEditDialog from '../dialogs/OpenSearchDashboardEditDialog';

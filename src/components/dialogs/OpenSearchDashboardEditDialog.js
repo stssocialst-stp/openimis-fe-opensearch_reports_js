@@ -13,7 +13,7 @@ import {
   FormattedMessage,
   TextInput,
   formatMessageWithValues,
-} from '@openimis/fe-core';
+} from '@stssocialst-stp/fe-core';
 import {
   Grid, IconButton, Switch, FormControlLabel,
 } from '@material-ui/core';
