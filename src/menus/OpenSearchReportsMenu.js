@@ -13,6 +13,7 @@ import {
 } from '@material-ui/icons';
 import PaymentIcon from '@material-ui/icons/Payment';
 import ToolIcon from '@material-ui/icons/Build';
+import AssessmentIcon from '@material-ui/icons/Assessment';
 import {
   formatMessage,
   MainMenuContribution,
@@ -70,6 +71,12 @@ function OpenSearchReportsMenu(props) {
       icon: <ToolIcon />,
       route: '/dashboardConfiguration',
       id: 'openSearch.openSearchConfig',
+    },
+    {
+      text: 'Analytics',
+      icon: <AssessmentIcon />,
+      route: '/analytics',
+      id: 'openSearch.analytics',
     },
   ];
   entries.push(

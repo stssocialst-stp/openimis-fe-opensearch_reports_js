@@ -21,6 +21,7 @@ import reducer from './reducer';
 import IndividualReportsPage from './pages/IndividualReportsPage';
 import GroupReportsPage from './pages/GroupReportsPage';
 import DataUpdatesReportsPage from './pages/DataUpdatesReportsPage';
+import AnalyticsPage from './pages/AnalyticsPage';
 
 const DEFAULT_CONFIG = {
   translations: [{ key: 'en', messages: messagesEn }],
@@ -35,6 +36,7 @@ const DEFAULT_CONFIG = {
     { path: 'dataUpdatesReports', component: DataUpdatesReportsPage },
     { path: 'paymentReports', component: PaymentReportsPage },
     { path: 'dashboardConfiguration', component: OpenSearchDashboardConfigPage },
+    { path: 'analytics', component: AnalyticsPage },
   ],
   'OpenSearch.MainMenu': [
     {
